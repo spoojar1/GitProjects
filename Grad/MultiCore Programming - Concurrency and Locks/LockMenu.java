@@ -1,3 +1,4 @@
+//Implementation of 5 different locks
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicBoolean;
