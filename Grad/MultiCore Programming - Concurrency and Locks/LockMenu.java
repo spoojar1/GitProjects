@@ -77,7 +77,7 @@ class PLock
 {
 	boolean f[]=new boolean[2];
     volatile int victim;
-	public void lock(MultiCore_Assgnmt2 m,int child)
+	public void lock(LockMenu m,int child)
 	{
 		int id=child%2;   //0 or 1 as per Peterson's algorithm
 		this.f[id]=true;
@@ -85,7 +85,7 @@ class PLock
 		
 		while(this.f[1-id] && this.victim==id){}
 	}
-	public void unlock(MultiCore_Assgnmt2 m,int child)
+	public void unlock(LockMenu m,int child)
 	{
 		int id=child%2;
 		this.f[id]=false;
@@ -110,10 +110,10 @@ class Backoff {
 	}
  }
 
-public class MultiCore_Assgnmt2 extends Thread{ 
+public class LockMenu extends Thread{ 
 
 	//Common
-	MultiCore_Assgnmt2 p[];
+	LockMenu p[];
 	volatile static int counter; //CS variable
 	static String algo;
 	int n; //no of threads;
@@ -151,13 +151,13 @@ public class MultiCore_Assgnmt2 extends Thread{
 		//delay=500;
 		
 		//Assuming number of threads are of the order 2^x e.g. 8. Parent nodes are 2^x-1 i.e. 7
-		p=new MultiCore_Assgnmt2[n+1];
+		p=new LockMenu[n+1];
 		
 		L=new PLock[n+1]; //ignore 0th and the nth record
 
 		for(int i=1; i<=n; i++)
 		{
-			p[i]=new MultiCore_Assgnmt2();
+			p[i]=new LockMenu();
 			Thread t=new Thread(p[i]);
 			
 			//define n-1 Lock objects (number of parents in the tree)
@@ -368,8 +368,8 @@ public class MultiCore_Assgnmt2 extends Thread{
 		while(i<=15)
 		{
 			counter=0;
-			new MultiCore_Assgnmt2().initialize(args[0],Integer.parseInt(args[1]),Integer.parseInt(args[2]));
-			//new MultiCore_Assgnmt2().initialize(args[0],Integer.parseInt(args[1]),Integer.parseInt(args[2]),Integer.parseInt(args[3]));
+			new LockMenu().initialize(args[0],Integer.parseInt(args[1]),Integer.parseInt(args[2]));
+			//new LockMenu().initialize(args[0],Integer.parseInt(args[1]),Integer.parseInt(args[2]),Integer.parseInt(args[3]));
 			while(Thread.activeCount()>1); //except main
 			t+=t2-t1;
 			d+=delay;
