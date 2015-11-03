@@ -1,4 +1,4 @@
-//Implementation of 5 different locks
+//Implementation of Peterson, TAS, TTAS, TTAS-Exponential Backoff and CLH locks
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicBoolean;
