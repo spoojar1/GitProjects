@@ -1,0 +1,67 @@
+function b = help_check_intersect(p1,p2,p3,p4)
+    
+    fprintf('inside help check intersect \n');
+    load('workspace.mat','Xc','Yc','Zc','fid','del','error');
+    b=0;
+    
+    if(p1>p2)
+        temp=p2;
+    if(p1==p3 || p1==p4 || p2==p3 || p2==p4)
+        return;
+    end
+    
+    t1=sqrt((Xc(p1)-Xc(p3))^2+(Yc(p1)-Yc(p3))^2+(Zc(p1)-Zc(p3))^2);
+    t1=cat(1,t1,sqrt((Xc(p1)-Xc(p4))^2+(Yc(p1)-Yc(p4))^2+(Zc(p1)-Zc(p4))^2));
+    t1=cat(1,t1,sqrt((Xc(p2)-Xc(p3))^2+(Yc(p2)-Yc(p3))^2+(Zc(p2)-Zc(p3))^2));
+    t1=cat(1,t1,sqrt((Xc(p2)-Xc(p4))^2+(Yc(p2)-Yc(p4))^2+(Zc(p2)-Zc(p4))^2));
+       
+    t=min(t1);
+    fprintf('min out of %d %d %d %d is %d \n',t1(1),t1(2),t1(3),t1(4),t);
+    if(t>(del+error))
+        return;
+    end
+    
+    fprintf('***********************************************************\n');
+    fprintf('p1 %d p2 %d p3 %d p4 %d \n',p1,p2,p3,p4);
+    
+    
+    
+   %{
+    
+    p1=87;
+    p2=110;
+    p3=88;
+    p4=109; 
+  
+    
+    
+    
+    syms t s c1 c2 c3;
+    c1=strcat(num2str(Xc(p1)),'+t*',num2str(Xc(p2)-Xc(p1)),'=',num2str(Xc(p3)),'+s*',num2str(Xc(p4)-Xc(p3)));
+    c2=strcat(num2str(Yc(p1)),'+t*',num2str(Yc(p2)-Yc(p1)),'=',num2str(Yc(p3)),'+s*',num2str(Yc(p4)-Yc(p3)));
+    c3=strcat(num2str(Zc(p1)),'+t*',num2str(Zc(p2)-Zc(p1)),'=',num2str(Zc(p3)),'+s*',num2str(Zc(p4)-Zc(p3)));
+    a=solve(c1,c2,c3);
+    
+    if(~isempty(a))
+        disp(a.t);
+        disp(a.s);
+        if(~isempty(findsym(a.s)) || ~isempty(findsym(a.t)))
+            return;
+        end
+        if(double(a.s)>0 && double(a.s)<1 && double(a.t)>0 && double(a.t)<1)
+            b=1;
+            fprintf('sad for this plane coz thess lines p1 %d p2 %d p3 %d p4 %d \n',p1,p2,p3,p4);
+            %fprintf('t : %s s : %s \n',t,s);
+            i1=Xc(p1)+double(a.t)*(Xc(p2)-Xc(p1))-Xc(p3)+double(a.s)*(Xc(p4)-Xc(p3));
+            i2=Yc(p1)+double(a.t)*(Yc(p2)-Yc(p1))-Yc(p3)+double(a.s)*(Yc(p4)-Yc(p3));
+            i3=Zc(p1)+double(a.t)*(Zc(p2)-Zc(p1))-Zc(p3)+double(a.s)*(Zc(p4)-Zc(p3));
+            fprintf('p1 x %d y %d z %d \n',Xc(p1),Yc(p1),Zc(p1));
+            fprintf('p2 x %d y %d z %d \n',Xc(p2),Yc(p2),Zc(p2));
+            fprintf('p3 x %d y %d z %d \n',Xc(p3),Yc(p3),Zc(p3));
+            fprintf('p4 x %d y %d z %d \n',Xc(p4),Yc(p4),Zc(p4));
+            fprintf('intersection x %d y %d z %d \n',i1,i2,i3);
+            return;
+        end
+    end
+    
+end
