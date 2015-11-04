@@ -1,0 +1,70 @@
+for display:-
+
+forum page query
+
+select * from forum
+
+subforum page
+
+select thread.thread_id,thread_name,thread.uname,thread.post,thread.no_of_replies 
+from thread inner join subforum 
+on thread.thread_id=subforum.thread_id
+where sfid='"&sforumid&"'
+
+
+thread page
+
+select thread_name,uname,data,post from thread
+where thread_id='"&thid&"'
+
+select uname,reply,post from reply
+where thread_id='"&thid&"'
+
+
+
+
+for insertions:-
+
+new thread
+
+
+insert into thread values(0,thname,0,thdata,thdate,thuname);
+
+update thread
+set thread_id=(select count(*) from thread)
+where thread_id=0;
+
+insert into subforum values(subid,0);
+
+update subforum
+set thread_id=(select count(*) from thread)
+where thread_id=0;
+
+
+
+new reply
+
+
+insert into reply values(thid,0,reply,uname,post);
+
+update reply
+set reply_no=(select count(*) from reply where thread_id=thid)
+where reply_no=0;
+
+
+
+
+start FOR ORACLE 8i
+
+select thread.thread_id,thread_name, uname, post, no_of_replies
+from thread, subforum
+where thread.thread_id=subforum.thread_id and subforum.sfid = "&sforumid&"
+
+end FOR ORACLE 8i
+
+select thread_name,uname,data,post from thread
+where thread_id='"&thid&"'
+
+select uname,reply,post from reply
+where thread_id='"&thid&"'
+
