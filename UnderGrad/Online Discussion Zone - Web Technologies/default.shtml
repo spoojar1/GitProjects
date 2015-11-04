@@ -1,0 +1,292 @@
+<link rel="stylesheet" href="tabs.css">
+<link rel="stylesheet" href="background.css">
+<link rel="stylesheet" href="cssfiles.css">
+<script type="text/javascript" src="jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="cookies.js"></script>
+<script type="text/javascript" src="jquery.curvycorners.packed.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function()
+{
+	$('#myspace').corner
+	({
+		  tl: { radius: 12 },
+		 tr: { radius: 12 },
+		 bl: { radius: 12 },
+		  br: { radius: 12 }
+	});
+	$('#news').corner
+	({
+		  tl: { radius: 12 },
+		 tr: { radius: 12 },
+		 bl: { radius: 12 },
+		  br: { radius: 12 }
+	});
+	$('#newstop').corner
+	({
+		  tl: { radius: 12 },
+		 tr: { radius: 12 },
+		 bl: { radius: 0 },
+		  br: { radius: 0 }
+	});
+	$('#log').corner
+	({
+		  tl: { radius: 12 },
+		 tr: { radius: 12 },
+		 bl: { radius: 12 },
+		  br: { radius: 12 }
+	});
+	$('#logtop').corner
+	({
+		  tl: { radius: 12 },
+		 tr: { radius: 12 },
+		 bl: { radius: 0 },
+		  br: { radius: 0 }
+	});
+	$('#loggedtop').corner
+	({
+		  tl: { radius: 12 },
+		 tr: { radius: 12 },
+		 bl: { radius: 0 },
+		  br: { radius: 0 }
+	});
+	$('.tabLink').corner
+	({
+		  tl: { radius: 5 },
+		 tr: { radius: 5 },
+		 bl: { radius: 5 },
+		  br: { radius: 5 }
+	});
+});
+$(document).ready(function()
+ {		
+	var check;
+	if(getCookie('logexists')==null)
+	{
+		$("#loggedwin").hide();
+	}
+	else
+	{
+		if(getCookie('logexists')=="no")
+		{
+			$("#loggedwin").hide();
+			alert("Invalid Username/Password");
+			delCookie('logexists');
+		}
+		if(getCookie('logexists')=="yes")
+		{
+			$("#page5").hide();
+			$(".tab-box2  #page5").hide();
+			$("#logtop").hide();
+			$("#logwin").hide();
+			$("#loggedwin").show();
+		}
+	}
+	$('.tabLink').click(function(e) 
+	{
+		check=$(this).attr('id')
+		if(check=='page2' || check=='page3' || check=='page4')
+		{
+			if(getCookie('loginId')!=null )
+			{
+				switch(check)
+				{
+					case 'page2' : loadprofile();
+						   break;
+					case 'page3' : loadforum();
+						   break;
+					case 'page4' : loadgames();
+						   break;
+				}
+				tabeId = $(this).attr('id');
+ 				$(".tabLink").removeClass("activeLink");
+ 				$(this).addClass("activeLink");
+			}
+			else
+			{
+			e.preventDefault();
+			var id = $(this).attr('href');
+			var maskHeight = $(document).height();
+			var maskWidth = $(window).width();
+			$('#mask').css({'width':maskWidth,'height':maskHeight});
+			$('#mask').fadeIn(1000);	
+			$('#mask').fadeTo("slow",0.8);	
+			var winH = $(window).height();
+			var winW = $(window).width();
+			$(id).css('top',  winH/2-$(id).height()/2);
+			$(id).css('left', winW/2-$(id).width()/2);
+			$(id).fadeIn(2000);
+			}
+		}
+		else
+		{
+			if(check=='page1')
+				loadhome();
+			if(check=='page5')
+				loadregister();
+			tabeId = $(this).attr('id');
+ 			$(".tabLink").removeClass("activeLink");
+ 			$(this).addClass("activeLink");
+		} 
+	});
+	$('.window .close').click(function (e) {
+		e.preventDefault();
+		$('#mask').hide();
+		$('.window').hide();
+	});		
+	$('#mask').click(function () {
+		$(this).hide();
+		$('.window').hide();
+	});	
+});		
+function clearspace()
+{
+	$("#divframe1").hide();
+	$("#divframe2").hide();
+	$("#divframe3").hide();
+	$("#divframe4").hide();
+	$("#divframe5").hide();
+}
+function loadhome()
+{
+	clearspace();
+	$("#divframe1").fadeIn(1000);
+	$("#divframe1").show();
+}
+function loadprofile()
+{
+	clearspace();
+	$("#divframe2").fadeIn(1000);
+	$("#divframe2").show();
+}
+function loadforum()
+{
+	clearspace();
+	$("#divframe3").fadeIn(1000);
+	$("#divframe3").show();
+}
+function loadgames()
+{
+	clearspace();
+	$("#divframe4").fadeIn(1000);
+	$("#divframe4").show();
+}
+function loadregister()
+{
+	clearspace();
+	$("#divframe5").fadeIn(1000);
+	$("#divframe5").show();
+}
+function regLoad()
+{
+	if(getCookie('loginId')==null)
+	{
+		if(getCookie("regexists")=="no")
+			alert("            USER REGISTERED !\n\n But you have to SIGN IN to proceed");
+		if(getCookie("regexists")=="yes")
+			alert("User Name already exists ");
+		delCookie('regexists');
+	}	
+	
+}
+</script>
+</head>
+
+<body style="background: #39414a url(images/bgcolor1.jpg) repeat-x 50% 0; " >
+
+<div id="heading">
+<div id="title">
+ THE DISCUSSION ZONE
+</div>
+<div id="forumimg">
+<img src="images/forumimg.jpg" width="100" height="100">
+</div>
+</div>
+
+<div class="tab-box1"> 
+<a href="#dialog" class="tabLink activeLink" id="page1">Home</a>
+<a href="#dialog" class="tabLink" id="page2">Profile</a>
+<a href="#dialog" class="tabLink" id="page3">Forum</a> 
+<a href="#dialog" class="tabLink" id="page4">Games &amp; Movies</a>
+<a href="#dialog" class="tabLink" id="page5">Register</a>
+</div>
+<div id="clock">
+<iframe class="clock" src="clock/clock.html"></iframe>
+</div>
+
+<div id="backup">
+
+<div id="myspace">
+<div id="divframe1">
+<iframe class="frame1" src="home.htm"></iframe>
+</div>
+<div id="divframe2">
+<iframe class="frame2" src="profile.htm"></iframe>
+</div>
+<div id="divframe3">
+<iframe class="frame3" src="forum.asp"></iframe>
+</div>
+<div id="divframe4">
+<iframe class="frame4" src="game.htm"></iframe>
+</div>
+<div id="divframe5">
+<iframe class="frame5" src="register.htm" onload="regLoad()"></iframe>
+</div>
+</div>
+
+<div id="log">
+
+<div id="loggedtop">WELCOME !</div>
+<div id="logtop">SIGN IN !</div>
+
+<div id="logwin">
+<form id="login" method="post" action="logaction.asp">
+USERNAME<br>
+<input name="logname" type="text"><br>
+PASSWORD<br>
+<input name="logpass" type="password"><br><br>
+<input value="Sign In" name="Submit" type="Submit">
+</form>
+<hr style="color: grey; width: 200px;">
+Don't have a forum ID ?
+Click Register to create one.
+</div>
+
+<div id="loggedwin">
+<iframe class="log" src="loggedwindow.htm"></iframe>
+</div>
+
+</div>
+
+<div id="news">
+<div id="newstop">NEWS!</div>
+<div><iframe class="news" src="news.htm"></iframe></div>
+</div>
+
+</div>
+
+<div id="backdown" style="z-index: 1;">
+</div>
+<div class="tab-box2" style="z-index: 2;"> 
+<a href="#dialog" class="tabLink activeLink" id="page1">Home</a>
+<a href="#dialog" class="tabLink" id="page2">Profile</a>
+<a href="#dialog" class="tabLink" id="page3">Forum</a> 
+<a href="#dialog" class="tabLink" id="page4">Games &amp; Movies</a>
+<a href="#dialog" class="tabLink" id="page5">Register</a>
+</div>
+
+<div id="boxes">
+<div id="dialog" class="window">
+Please login first to access this part of the website |  
+<a href="#" class="close">Close it</a>
+</div>
+
+<div id="mask"></div>
+</div>
+
+
+
+
+
+
+
