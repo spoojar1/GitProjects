@@ -1,0 +1,167 @@
+insert into Person values(0000012345,'John','Liner','145 Mccallum Glenn','Coit Road','Dallas','Texas',75252,4699639182,'M','18-JUL-90','johnliner@gmail.com');
+insert into Person values(0000012346,'James','Bond','135 Mccallum Glenn','Coit Road','Dallas','Texas',75252,7896373883,'M','27-AUG-89','jamesbond@gmail.com');
+insert into Person values(0000012347,'Jake','Layer','4 Mccallum Glenn','Coit Road','Dallas','Texas',75252,1234567890,'M','12-FEB-97','jakelayer@hotmail.com');
+insert into Person values(0000012348,'Chris','Martin','45 Mccallum Glenn','Coit Road','Dallas','Texas',75252,5679876152,'M','11-JAN-99','chrismartin@gmail.com');
+insert into Person values(0000012349,'Sebastian','Pear','145 Mccallum Crossings','Coit Road','Dallas','Texas',75252,1837484848,'M','11-AUG-90','sebastianpear@yahoo.com');
+insert into Person values(0000012350,'Emilie','Namterme','145 Mccallum Crossings','Coit Road','Dallas','Texas',75252,1837484849,'F','11-AUG-91','emilie@hotmail.com');
+insert into Person values(0000012351,'Clara','Ponting','80 Mccallum Crossings','Coit Road','Dallas','Texas',75252,1837484850,'F','11-AUG-92','clara@yahoo.com');
+insert into Person values(0000012352,'Savita','Tendulkar','100 Mccallum Glen','Coit Road','Dallas','Texas',75252,1837484851,'F','11-AUG-93','savita@gmail.com');
+insert into Person values(0000012353,'Kleen','Dsouza','145 Mccallum Crossings','Coit Road','Dallas','Texas',75252,1837484852,'F','11-AUG-94','kleen.dsouza@hotmail.com');
+insert into Person values(0000012354,'Virat','Kohli','100 Chatham','Coit Road','Dallas','Texas',75252,1837484853,'M','11-AUG-95','virat@rashroad.com');
+insert into Person values(0000012355,'Rohit','Sharma','145 Mccallum Crossings','Coit Road','Dallas','Texas',75252,1837484854,'M','11-AUG-96','rohit@lazybug.com');
+insert into Person values(0000012356,'Hello','World','145 Chatham','Coit Road','Dallas','Texas',75252,1837484855,'M','11-AUG-97','hello.world@gmail.com');
+insert into Person values(0000012357,'George','Wale','900 Mccallum Crossings','Coit Road','Dallas','Texas',75252,1837484856,'M','11-AUG-98','geoge.wale@gmail.com');
+insert into Person values(0000012358,'Renny','James','145 Chatham','Coit Road','Dallas','Texas',75252,1837484857,'M','11-AUG-99','renny@james@gmail.com');
+insert into Person values(0000012359,'Pier','Namterme','800 Mccallum Crossings','Coit Road','Dallas','Texas',75252,1837484858,'M','11-AUG-100','pier@accenture.com');
+
+insert into Mobile_Plans values(1,'Family Plan',0,-1,-1,0,100,'Postpaid');
+insert into Mobile_Plans values(2,'Family Plan',0,-1,-1,0,100,'Postpaid');
+insert into Mobile_Plans values(3,'Small Family Plan',0,-1,-1,0,80,'Postpaid');
+insert into Mobile_Plans values(4,'Simple Choice',1,100,4000,0,40,'Postpaid');
+insert into Mobile_Plans values(5,'Pay on the Go',2,200,4000,2,10,'Prepaid');
+
+insert into Account values(0000012386,'Account@123','01-Dec-15','What is your favorite pet?','Cat','Paperless','EZpay','145 Mccallum Glenn',0,0000000001,0);
+insert into Account values(0000012387,'Account@001','5-Dec-15','What is your favorite pet?','Dog','Paperless','EZpay','135 Mccallum Glenn',0,0000000001,0);
+insert into Account values(0000012388,'Acc1234','01-Nov-15','What is your favorite pet?','Lion','Paperless','Normal','4 Mccallum Glenn',0,0000000001,0);
+insert into Account values(0000012389,'Mobile123','01-Dec-15','What is your favorite pet?','Cat','Paperless','Normal','45 Mccallum Glenn',0,0000000001,0);
+insert into Account values(0000012390,'Hello09','01-Dec-15','What is your favorite pet?','Dog','Paperless','Normal','145 Mccallum Crossings',0,0000000001,0);
+
+insert into Customer values(0000012345,1210000000,0,0000012386);
+insert into Customer values(0000012346,1210000001,0,0000012387);
+insert into Customer values(0000012347,1210000002,0,0000012388);
+insert into Customer values(0000012348,1210000003,1,0000012389);
+insert into Customer values(0000012349,1210000004,2,0000012390);
+
+insert into Customer_Credit values(0000012345,9383747488668878,'Wells Fargo',0);
+insert into Customer_Credit values(0000012346,9383747488668878,'Wells Fargo',100);
+insert into Customer_Credit values(0000012347,9383747488668878,'Wells Fargo',10);
+insert into Customer_Credit values(0000012348,9383747488668878,'Wells Fargo',20);
+insert into Customer_Credit values(0000012349,9383747488668878,'Wells Fargo',200);
+
+insert into Employee1 values(0000012350,123678367,'asas1516@company.com',30,'S',0000012351);
+insert into Employee1 values(0000012351,123678368,'adyads172@company.com',50,'S',0000012351);
+insert into Employee1 values(0000012352,123678369,'sdhsd6126@company.com',35,'S',0000012351);
+insert into Employee1 values(0000012353,123678370,'acasd12@company.com',45,'S',0000012351);
+insert into Employee1 values(0000012354,123678371,'adasd67@company.com',45,'S',0000012351);
+insert into Employee1 values(0000012355,123678372,'asdf12@company.com',20,'T',0000012351);
+insert into Employee1 values(0000012356,123678373,'sdafs23e2@company.com',15,'T',0000012351);
+insert into Employee1 values(0000012357,123678374,'sadfsdf122@company.com',15,'T',0000012351);
+insert into Employee1 values(0000012358,123678375,'sadf23e@company.com',15,'T',0000012351);
+insert into Employee1 values(0000012359,123678376,'sdsdf12@company.com',15,'T',0000012351);
+
+insert into Technician values(75252,0000012355,'yes');
+insert into Technician values(75252,0000012356,'yes');
+insert into Technician values(75252,0000012357,'yes');
+insert into Technician values(75252,0000012358,'yes');
+insert into Technician values(75252,0000012359,'yes');
+
+insert into Staff values('English',0000012350);
+insert into Staff values('French',0000012351);
+insert into Staff values('English',0000012352);
+insert into Staff values('English',0000012353);
+insert into Staff values('French',0000012354);
+
+insert into Bills values(000001000000,'01-Nov-15','30-Nov-15',200,'10-Dec-15',0,0,200,0000012386);
+insert into Bills values(000001000001,'01-Oct-15','31-Oct-15',100,'10-Nov-16',0,0,100,0000012387);
+insert into Bills values(000001000002,'01-Nov-15','30-Nov-15',150,'10-Dec-17',0,0,150,0000012388);
+insert into Bills values(000001000003,'01-Nov-15','30-Nov-15',50,'10-Dec-18',0,0,50,0000012389);
+insert into Bills values(000001000004,'01-Nov-15','30-Nov-15',120,'10-Dec-19',0,0,120,0000012390);
+
+insert into Customer_Service values(111112237876,0000012386,'No Internet','6-DEC-15','6-DEC-15','Issue with mobile. Fixed',1);
+insert into Customer_Service values(111112234545,0000012387,'Huge Bills','6-NOV-15','6-NOV-15','Bill had issue. Fixed',1);
+insert into Customer_Service values(111112238989,0000012388,'Payment not reflected','6-DEC-15','6-DEC-15','Fixed',1);
+insert into Customer_Service values(111112237880,0000012389,'No connection','1-DEC-15','1-DEC-15','Issue with mobile. Fixed',1);
+insert into Customer_Service values(111112237899,0000012390,'Payment not reflected','1-DEC-15','1-DEC-15','Fixed',1);
+
+insert into Staff_Service values(111112237876,0000012350,'6-DEC-15','Issue with mobile. Fixed');
+insert into Staff_Service values(111112234545,0000012351,'6-NOV-15','Bill had issue. Fixed');
+insert into Staff_Service values(111112238989,0000012352,'6-DEC-15','Fixed');
+insert into Staff_Service values(111112237880,0000012353,'1-DEC-15','Issue with mobile. Fixed');
+insert into Staff_Service values(111112237899,0000012354,'1-DEC-15','Fixed');
+
+insert into Technician_Service values(111112237876,0000012355,'6-DEC-15','Issue with mobile. Fixed',0000012350);
+insert into Technician_Service values(111112234545,0000012356,'6-NOV-15','Bill had issue. Fixed',0000012351);
+insert into Technician_Service values(111112238989,0000012357,'6-DEC-15','Fixed',0000012352);
+insert into Technician_Service values(111112237880,0000012358,'1-DEC-15','Issue with mobile. Fixed',0000012353);
+insert into Technician_Service values(111112237899,0000012359,'1-DEC-15','Fixed',0000012354);
+
+insert into Mobile_Nos values(4699639182,3223423427,83735373,'Postpaid','12-DEC-16',1);
+insert into Mobile_Nos values(7896373883,3223423428,83735374,'Postpaid','12-DEC-17',1);
+insert into Mobile_Nos values(1234567890,3223423429,83735375,'Postpaid','12-DEC-18',1);
+insert into Mobile_Nos values(5679876152,3223423430,83735376,'Postpaid','12-DEC-19',1);
+insert into Mobile_Nos values(1837484848,3223423431,83735377,'Postpaid','12-DEC-20',1);
+insert into Mobile_Nos values(1234567891,3223423432,83735378,'Postpaid','12-DEC-21',0);
+insert into Mobile_Nos values(1234567892,3223423433,83735379,'Postpaid','12-DEC-22',0);
+insert into Mobile_Nos values(1234567893,3223423434,83735380,'Postpaid','12-DEC-23',0);
+insert into Mobile_Nos values(1234567894,3223423435,83735381,'Postpaid','12-DEC-24',0);
+insert into Mobile_Nos values(1234567895,3223423436,83735382,'Postpaid','12-DEC-25',0);
+
+insert into Mobile values(4699639182,0000012386);
+insert into Mobile values(7896373883,0000012387);
+insert into Mobile values(1234567890,0000012388);
+insert into Mobile values(5679876152,0000012389);
+insert into Mobile values(1837484848,0000012390);
+
+insert into M_Service_Plans values(000000001,'International Roaming',15);
+insert into M_Service_Plans values(000000002,'International Text',15);
+insert into M_Service_Plans values(000000003,'Radio Services',10);
+insert into M_Service_Plans values(000000004,'Data Stash',10);
+insert into M_Service_Plans values(000000005,'Caller Tunes',10);
+
+insert into Mobile_Services values(4699639182,000000001);
+insert into Mobile_Services values(7896373883,000000002);
+insert into Mobile_Services values(1234567890,000000003);
+insert into Mobile_Services values(5679876152,000000004);
+insert into Mobile_Services values(1837484848,000000005);
+
+insert into Mobile_Transactions values(0000110001,4699639182,'10-NOV-15','10-NOV-2015 08.00.05 AM',0);
+insert into Mobile_Transactions values(0000110002,7896373883,'10-NOV-15','10-NOV-2015 08.00.05 PM',0);
+insert into Mobile_Transactions values(0000110003,1234567890,'10-NOV-15','10-NOV-2015 12.00.05 AM',0);
+insert into Mobile_Transactions values(0000110004,5679876152,'10-NOV-15','10-NOV-2015 11.00.05 AM',0);
+insert into Mobile_Transactions values(0000110005,1837484848,'10-NOV-15','10-NOV-2015 11.20.05 AM',0);
+insert into Mobile_Transactions values(0000110006,4699639182,'10-NOV-15','10-NOV-2015 08.00.05 AM',1);
+insert into Mobile_Transactions values(0000110007,7896373883,'10-NOV-15','10-NOV-2015 08.00.05 AM',1);
+insert into Mobile_Transactions values(0000110008,1234567890,'10-NOV-15','10-NOV-2015 08.00.05 AM',1);
+insert into Mobile_Transactions values(0000110009,5679876152,'10-NOV-15','10-NOV-2015 08.00.05 AM',1);
+insert into Mobile_Transactions values(0000110010,1837484848,'10-NOV-15','10-NOV-2015 08.00.05 AM',1);
+insert into Mobile_Transactions values(0000110011,4699639182,'10-NOV-15','10-NOV-2015 08.00.05 AM',2);
+insert into Mobile_Transactions values(0000110012,7896373883,'10-NOV-15','10-NOV-2015 08.00.05 AM',2);
+insert into Mobile_Transactions values(0000110013,1234567890,'10-NOV-15','10-NOV-2015 08.00.05 AM',2);
+insert into Mobile_Transactions values(0000110014,5679876152,'10-NOV-15','10-NOV-2015 08.00.05 AM',2);
+insert into Mobile_Transactions values(0000110015,1837484848,'10-NOV-15','10-NOV-2015 08.00.05 AM',2);
+
+insert into MT_Call values(0000110001,'Texas',1231231231,10);
+insert into MT_Call values(0000110002,'Austin',1231231232,20);
+insert into MT_Call values(0000110003,'Austin',1231231233,21);
+insert into MT_Call values(0000110004,'Texas',1231231234,22);
+insert into MT_Call values(0000110005,'Texas',1231231235,23);
+
+insert into MT_Text values(0000110006,'Texas',1231231231,'Outgoing');
+insert into MT_Text values(0000110007,'Austin',1231231232,'Outgoing');
+insert into MT_Text values(0000110008,'Austin',1231231233,'Outgoing');
+insert into MT_Text values(0000110009,'Texas',1231231234,'Outgoing');
+insert into MT_Text values(0000110010,'Texas',1231231235,'Outgoing');
+
+insert into MT_Data values(0000110011,12.46);
+insert into MT_Data values(0000110012,12.47);
+insert into MT_Data values(0000110013,12.48);
+insert into MT_Data values(0000110014,12.49);
+insert into MT_Data values(0000110015,12.50);
+
+insert into Services values(0001,'Wifi',60);
+insert into Services values(0002,'Cable TV',100);
+insert into Services values(0003,'Cloud',20);
+insert into Services values(0004,'VoIP',10);
+insert into Services values(0005,'Wifi-Dongle',25);
+
+insert into Account_Services values(0000012386,0001);
+insert into Account_Services values(0000012387,0002);
+insert into Account_Services values(0000012388,0003);
+insert into Account_Services values(0000012389,0004);
+insert into Account_Services values(0000012390,0005);
+
+insert into Service_Transactions values(0000001,'10-NOV-15','10-NOV-2015 08.00.05 AM',0000012386,0001,23);
+insert into Service_Transactions values(0000002,'10-NOV-15','10-NOV-2015 08.00.05 PM',0000012387,0002,24);
+insert into Service_Transactions values(0000003,'10-NOV-15','10-NOV-2015 12.00.05 AM',0000012388,0003,25);
+insert into Service_Transactions values(0000004,'10-NOV-15','10-NOV-2015 11.00.05 AM',0000012389,0004,26);
+insert into Service_Transactions values(0000005,'10-NOV-15','10-NOV-2015 11.20.05 AM',0000012390,0005,27);

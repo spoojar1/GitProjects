@@ -1,0 +1,115 @@
+--SP1: Staff picks up available technicians and assigns them to the current service id.
+CREATE OR REPLACE PROCEDURE assign_tech (Service_Id IN Customer_Service.Service_Id%Type, R_SID IN Staff.S_ID%Type, tmpDate IN DATE) 
+AS
+CURSOR C_TECH 
+	IS
+		select S_ID from Technician where Availability='yes' and rownum=1;
+	R_TECH C_TECH%ROWTYPE;
+BEGIN
+	OPEN C_TECH;
+	FETCH C_TECH INTO R_TECH;
+	IF C_TECH%NOTFOUND THEN
+		DBMS_OUTPUT.put_line('No technician is available right now. Your Request had been queued.');
+	ELSE
+		insert into Technician_Service values (Service_Id,R_TECH.S_ID,tmpDate,'',R_SID);
+		UPDATE Technician SET Availability='no' WHERE S_ID=R_TECH.S_ID;
+	END IF;
+	CLOSE C_TECH;
+END;
+
+--SP2: Technician generates the call report on completion of the call and updates his/her availability.
+create or replace procedure CALL_REPORT(
+P_Service_Id IN Customer_Service.Service_Id%Type,
+P_S_ID IN Technician.S_ID%Type,
+P_Call_Report IN VARCHAR) AS
+BEGIN
+	UPDATE Technician_Service
+	SET Call_Report=P_Call_Report WHERE Service_Id=P_Service_Id AND S_ID=P_S_ID;
+END;
+
+
+--SP3: Procedure to calculate the customer monthy bills
+create or replace procedure Calc_Bill(
+ACC_ID IN Mobile.Account_Id%Type,
+START_DATE IN BILLS.Cycle_Start_Date%TYPE,
+END_DATE IN BILLS.Cycle_End_Date%TYPE) AS
+CURSOR c_bill
+   IS
+    SELECT SUM(CHARGE) AS COST
+	FROM MOBILE M JOIN MOBILE_SERVICES MS
+	ON M.MOBILE_NO=MS.MOBILE_NO
+	JOIN M_SERVICE_PLANS MP
+	ON MS.M_SERVICE_ID=MP.M_SERVICE_ID
+	WHERE M.Account_ID=ACC_ID
+	GROUP BY M.MOBILE_NO;
+	r_bill   c_bill%ROWTYPE;
+	BASIC_CHARGE NUMBER;
+	TOT_CHARGE NUMBER;
+	NEXTBILLID NUMBER;
+BEGIN
+	TOT_CHARGE:=0;
+	OPEN c_bill;
+	LOOP
+		FETCH c_bill INTO r_bill;
+			TOT_CHARGE:=TOT_CHARGE+r_bill.COST;
+		EXIT WHEN c_bill%NOTFOUND;
+	END LOOP;
+		SELECT MAX(BILL_ID)+1 INTO NEXTBILLID FROM BILLS;
+		
+		SELECT CHARGE INTO BASIC_CHARGE
+		FROM MOBILE_PLANS M JOIN ACCOUNT A
+		ON A.PLAN_ID=M.PLAN_ID
+		WHERE ACCOUNT_ID=ACC_ID;
+		
+		INSERT INTO BILLS VALUES(NEXTBILLID,START_DATE,END_DATE,BASIC_CHARGE+TOT_CHARGE,END_DATE+10,'N',ACC_ID,0,BASIC_CHARGE+TOT_CHARGE);
+	CLOSE c_bill;
+END;
+
+--SP4: Procedure to calculate the fines for delays in bill payment.
+create or replace procedure Calc_Fines AS
+CURSOR c_due_check
+IS
+  SELECT BILL_ID FROM BILLS WHERE Payment_Due_Date < TO_DATE(SYSDATE,'DD-MON-YY') AND Payment_Status='N';
+	due_check   c_due_check%ROWTYPE;
+BEGIN
+	OPEN c_due_check;
+	LOOP
+		FETCH c_due_check INTO due_check;
+			UPDATE BILLS 
+			SET FINES=(0.005*TOTAL_CHARGE)*ROUND(SYSDATE-Payment_Due_Date),
+			TOTAL_CHARGE=ORIGINAL_CHARGE+(0.005*TOTAL_CHARGE)*ROUND(SYSDATE-Payment_Due_Date)
+			WHERE BILL_ID=due_check.BILL_ID;
+		EXIT WHEN c_due_check%NOTFOUND;
+	END LOOP;
+	CLOSE c_due_check;
+END;
+
+--SP5 Staff fetches the list of available mobile numbers and allocates them to the account.
+CREATE OR REPLACE PROCEDURE Fetch_mobile (
+M_Type IN Mobile_Nos.Type%Type,
+ACC_ID IN Mobile.Account_Id%Type,
+SID IN PERSON.S_ID%Type,
+Nos IN Number) 
+AS
+CURSOR C_mob 
+	IS
+		SELECT Mobile_No FROM 
+			(SELECT Mobile_No FROM Mobile_Nos 
+			where Type=M_Type and Availability=0 
+			ORDER BY Activate_By_Date ASC)
+		WHERE  rownum <= Nos;
+	R_mob C_mob%ROWTYPE;
+	COUNTER NUMBER;
+BEGIN
+	COUNTER:=0;
+	OPEN C_mob;
+	FETCH C_mob INTO R_mob;
+	IF C_mob%NOTFOUND THEN
+		IF COUNTER > 0 THEN
+			UPDATE PERSON SET Phone=R_mob.Mobile_No WHERE S_ID=SID;
+		END IF;
+		INSERT INTO MOBILE VALUES (R_mob.Mobile_No,ACC_ID);
+		COUNTER:=1;
+	END IF;
+	CLOSE C_mob;
+END;
