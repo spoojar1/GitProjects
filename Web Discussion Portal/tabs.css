@@ -1,0 +1,66 @@
+body {font-family:Verdana, Arial, Helvetica, sans-serif;font-weight:bold}
+#clock 
+{  
+ position:absolute;
+ margin-left:76%;
+ margin-top:-42px;
+}
+.tab-box1 
+{  
+ padding-bottom:5px;
+ position:relative;
+ margin-left:12%;
+ margin-top:30px;
+}
+.tab-box1 a
+ {
+  border:1px solid #DDD;
+  color:#fff;
+  padding: 5px 15px;
+  text-decoration:none;
+  background:url(images/tabs.jpg);
+}
+
+.tab-box1 a.activeLink 
+{ 
+  color:#000;
+  border-bottom: 0; 
+  padding: 6px 15px;
+}
+.tab-box1 a:hover
+{
+cursor: pointer; 
+color: #000; 
+text-decoration: underline;
+}
+
+
+
+.tab-box2 
+{  
+ padding-bottom:5px;
+ position:absolute;
+ margin-left:12%;
+ margin-top:-60px;
+}
+.tab-box2 a
+ {
+  border:1px solid #DDD;
+  color:#fff;
+  padding: 5px 15px;
+  text-decoration:none;
+  background:url(images/tabs.jpg);
+}
+
+.tab-box2 a.activeLink 
+{ 
+  color:#000;
+  border-bottom: 0; 
+  padding: 6px 15px;
+}
+.tab-box2 a:hover
+{
+cursor: pointer; 
+color: #000; 
+text-decoration: underline;
+}

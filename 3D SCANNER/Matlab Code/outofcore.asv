@@ -1,0 +1,3 @@
+copyfile('workspace1.mat','tp.mat');
+a=unique(bdry);
+save('workspace1.mat','unik');

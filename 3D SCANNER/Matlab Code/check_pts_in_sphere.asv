@@ -1,0 +1,72 @@
+function b = check_pts_in_sphere(cijk)
+load('workspace1.mat','fid','x','y','del','r','Xc','Yc','Zc','voxel','x2','y2','z2');
+
+%----------------------------------------------
+fprintf(fid,'\n@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ \n');
+fprintf(fid,'CHECKING FOR PRESENCE OF POINTS IN THE CURRENT SPHERE \n');
+%----------------------------------------------
+
+tmpx=double(cijk.x);
+tmpy=double(cijk.y);
+tmpz=double(cijk.z);
+
+i2=ceil((x+tmpx)/del);
+j2=ceil((y-tmpy)/del);
+k2=ceil((tmpz+1)/del);
+
+%----------------------------------------------
+fprintf(fid,'%d %d %d \n',tmpx,tmpy,tmpz);
+fprintf('%d %d %d \n',i2,j2,k2);
+%----------------------------------------------
+
+len=size(voxel(i2,j2,k2).ll,2);
+b=1;
+
+for p=1:1:len
+    temp=voxel(i2,j2,k2).ll(p);
+    temp2=sqrt((tmpx-Xc(temp))^2+(tmpy-Yc(temp))^2+(tmpz-Zc(temp))^2);
+    %----------------------------------------------
+    fprintf(fid,'distance of %d : %d \n',temp,temp2);
+    %----------------------------------------------
+    if(round(temp2)<r) %if(temp2<r))
+        b=0;
+        %----------------------------------------------
+        fprintf(fid,'points present inside sphere \n');
+        fprintf(fid,'@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ \n');
+        %----------------------------------------------
+        return;
+    end
+end
+
+for i1=i2-1:1:i2+1
+    for j1=j2-1:1:j2+1
+        for k1=k2-1:1:k2+1
+            if((i1<1 || i1>x2) || (j1<1 || j1>y2) || (k1<1 || k1>z2) ||(i1==i2 && j1==j2 && k1==k2))  %x2 , y2 and z2 are limits on voxel cube's boundaries
+                continue;
+            else
+                len=size(voxel(i1,j1,k1).ll,2);
+                for p=1:1:len
+                    temp=voxel(i1,j1,k1).ll(p);
+                    temp2=sqrt((tmpx-Xc(temp))^2+(tmpy-Yc(temp))^2+(tmpz-Zc(temp))^2);
+                    %----------------------------------------------
+                    %fprintf(fid,'distance of %d : %d \n',temp,temp2);
+                    %----------------------------------------------
+                    if(round(temp2)<r) %if(temp2<r)
+                        b=0;
+                        %----------------------------------------------
+                        %fprintf(fid,'points present inside sphere \n');
+                        %fprintf(fid,'@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ \n');
+                        %----------------------------------------------
+                        return;
+                    end
+                end
+            end
+        end
+    end
+end
+%----------------------------------------------
+%fprintf(fid,'NO points present inside sphere GOODLUCK !! \n');
+%fprintf(fid,'@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ \n');
+%----------------------------------------------
+end
+

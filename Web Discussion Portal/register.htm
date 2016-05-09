@@ -1,0 +1,101 @@
+<html>
+<head>
+<script language="JavaScript" type="text/javascript" src="form.js" >
+</script>
+</head>
+<body>
+
+<h1 align="center">Register</h1>
+      <form name="regform"  method="post" action="regaction.asp" onSubmit="return validation()">   <pre>
+
+        First Name :		<input name="FirstName"  type="text"  size="30" >*
+        Last Name :    		<input name="LastName"  type="text"  size="30" >*
+        User Name :    		<input name="UserName"  type="text"  size="30">*
+        Email Id :     		<input name="EmailId"  type="text"  size="30" >*
+        Password :     		<input name="Password"  type="Password"  size="30" >*
+        Verify Password:	<input name="VPassword"  type="Password"  size="30" >*
+
+        Gender:			<input name="gender" type="radio" value="Male" checked>Male
+               			<input name="gender" type="radio" value="Female">Female
+
+        Date of Birth:		<select name="day" >
+        					<option>1</option>
+        					<option>2</option>
+        					<option>3</option>
+        					<option>4</option>
+        					<option>5</option>
+        					<option>6</option>
+        					<option>7</option>
+        					<option>8</option>
+        					<option>9</option>
+        					<option>10</option>
+        					<option>11</option>
+        					<option>12</option>
+        					<option>13</option>
+        					<option>14</option>
+        					<option>15</option>
+        					<option>16</option>
+        					<option>17</option>
+        					<option>18</option>
+        					<option>19</option>
+        					<option>20</option>
+        					<option>21</option>
+        					<option>22</option>
+        					<option>23</option>
+        					<option>24</option>
+        					<option>25</option>
+        					<option>26</option>
+        					<option>27</option>
+        					<option>28</option>
+        					<option>29</option>
+        					<option>30</option>
+        					<option>31</option>
+        					</select>	<select name="month" ><option>Jan</option>
+        										<option>Feb</option>
+        										<option>Mar</option>
+        										<option>Apr</option>
+        										<option>May</option>
+        										<option>Jun</option>
+        										<option>Jul</option>
+        										<option>Aug</option>
+        										<option>Sep</option>
+        										<option>Oct</option>
+        										<option>Nov</option>
+        										<option>Dec</option>
+        										</select>	<select name="year"><option>1988</option>
+        															<option>1989</option>
+        															<option>1990</option>
+        															<option>1991</option>
+        															<option>1992</option>
+        															<option>1993</option>
+        															<option>1994</option>
+        															<option>1995</option>
+        															<option>1996</option>
+        										</select>
+
+        Phone No:		<input name="pno"  type="text"  size="10" >*
+
+        Address:		<textarea name="address" rows="5" columns="30" wrap="" ></textarea>
+
+        State:			<input name="state"  type="text"  size="26"> 	
+
+        Country:  		<input name="country"  type="text"  size="26">	
+
+        College:		<input name="college"  type="text"  size="26"> 
+
+        Account Type:		<select name="acctype">
+        					<option>Student</option>
+        					<option>Teacher</option>
+        				</select>
+
+
+        Interests:		<textarea name="interests" rows="5" columns="30" wrap="" ></textarea>	
+
+        
+
+        <input type="Submit" value="Submit" name="Submit" >  <input type="reset" value="CLEAR" name="CLEAR" >
+	</pre>
+      </form>
+
+</body>
+</html>

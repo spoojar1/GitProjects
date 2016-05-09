@@ -1,0 +1,1 @@
+javac MultiCore_Assgnmt2.java
