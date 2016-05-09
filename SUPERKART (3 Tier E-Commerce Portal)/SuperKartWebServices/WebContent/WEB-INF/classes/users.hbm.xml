@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>  
+<!DOCTYPE hibernate-mapping PUBLIC  
+ "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+ "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">  
+  
+ <hibernate-mapping>  
+  <class name="SuperKartWebServices.SuperKartWebServices.UsersBean" table="Users">  
+    <id name="userName">  
+     <generator class="assigned"></generator>  
+    </id>  
+            
+    <property name="firstName"></property>  
+    <property name="lastName"></property> 
+    <property name="userPassword"></property> 
+    <property name="emailId"></property> 
+    <property name="contactNo"></property> 
+    <property name="dateOfBirth"></property> 
+    <property name="billingAddress"></property> 
+    <property name="shippingAddress"></property> 
+    <property name="lastLogin"></property> 
+            
+  </class>  
+            
+ </hibernate-mapping>  
