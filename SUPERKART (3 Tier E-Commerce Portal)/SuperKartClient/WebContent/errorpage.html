@@ -1,0 +1,219 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Foundation | Welcome</title>
+<link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+<link href='https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css' rel='stylesheet' type='text/css'>
+ 
+  
+ <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+
+	//LOGIN
+	$('#login').click(function(e) {
+		e.preventDefault();
+		var id = $(this).attr('href');
+		var maskHeight = $(document).height();
+		var maskWidth = $(window).width();
+		$('#mask').css({'width':maskWidth,'height':maskHeight});
+		$('#mask').fadeIn(1000);	
+		$('#mask').fadeTo("slow",0.5);	
+		var winH = $(window).height();
+		var winW = $(window).width();
+		$(id).css('top',  winH/2-$(id).height()/2);
+		$(id).css('left', winW/2-$(id).width()/2);
+		$(id).fadeIn(2000);
+	});
+	
+	//LOGIN
+	$('#register').click(function(e) {
+		e.preventDefault();
+		var id = $(this).attr('href');
+		var maskHeight = $(document).height();
+		var maskWidth = $(window).width();
+		$('#mask').css({'width':maskWidth,'height':maskHeight});
+		$('#mask').fadeIn(1000);	
+		$('#mask').fadeTo("slow",0.5);	
+		var winH = $(window).height();
+		var winW = $(window).width();
+		$(id).css('top',  winH/2-$(id).height()/2);
+		$(id).css('left', winW/2-$(id).width()/2);
+		$(id).fadeIn(2000);
+	});
+	
+	//Common for LOGIN and REGISTER
+	$('.window #close').click(function (e) {
+		e.preventDefault();
+		$('#mask').hide();
+		$('.window').hide();
+	});		
+	$('#mask').click(function () {
+		$(this).hide();
+		$('.window').hide();
+	});
+	
+});
+</script>
+<style>
+.log-in-form {
+	border: 1px solid #cacaca;
+	padding: 1rem;
+	border-radius: 3px; 
+	background-color:#fff;
+}
+
+#mask 
+{
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:9000;
+  background-color:#000;
+  display:none;
+}
+  
+#boxes .window 
+{
+  position:absolute;
+  left:0;
+  top:0;
+  display:none;
+  z-index:9999;
+}
+
+#boxes #dialog1,#dialog2
+{
+  width:400px; 
+}
+
+#close{
+ float:right;
+}
+
+#error_block{
+	background-color:#ffffff;
+	width: 70%;
+	margin: 0 auto;
+	height: 480px;
+	border-collapse: collapse;
+	border-left: 1px solid #d0d0d0;
+	border-right: 1px solid #d0d0d0;
+	background: url('error-images/image3.jpg') no-repeat center center;
+	background-size:100% 100%;
+}
+</style>
+</head>
+
+<body>
+<div class="top-bar">
+	<div class="top-bar-left">
+		<ul class="menu">
+			<li><a href="index.jsp" style="color:black;font-weight:bold;">SUPERKART</a></li>
+			<li><a href="#firstDiv">Mobiles</a></li>
+			<li><a href="#secondDiv">Laptops</a></li>
+			<li><a href="#thirdDiv">Cameras</a></li>
+			<li><a href="#fourthDiv">Tablets</a></li>
+			<li><a href="#fifthDiv">Miscellaneous</a></li>
+		</ul>
+	</div>
+	<div class="top-bar-right">
+		<ul class="menu">
+			<li><input type="search" style="height:30px; width:300px;" placeholder="Search"></li>
+			<li><button type="button" class="button" style="height:30px; line-height:0.3rem;" >Search</button></li>
+			<li><a id="login" href="#dialog1">Login</a></li>
+			<li><a id="register" href="#dialog2">Register</a></li>
+		</ul>
+	</div>
+</div>
+
+<div id="error_block">
+</div>
+
+<div class="callout secondary">
+	<div class="row">
+		<div class="large-4 columns">
+			<h5>Your ONE STOP SHOP for all the Electronics you can think of !!</h5>
+			<p>From mobiles, to laptops, to LCDs. You can find all of your household and workplace electronics here at COMPANYNAME. We provide the best customer service and truly believe that Customer is King.</p>
+		</div>
+		<div class="large-3 large-offset-2 columns">
+			<ul class="menu vertical">
+				<li><a href="#"><p style="font-weight:bold;">COMPANY NAME</p></a></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Contact Us</a></li>
+				<li><a href="#">Careers</a></li>
+			</ul>
+		</div>
+		<div class="large-3 columns">
+			<ul class="menu vertical">
+				<li><a href="#"><p style="font-weight:bold;">HELP</p></a></li>
+				<li><a href="#">FAQ</a></li>
+				<li><a href="#">Cancellation & Returns</a></li>
+				<li><a href="#">Gift Cards</a></li>
+
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div id="boxes">
+	<div id="dialog1" class="window">
+		<div class="row">
+			<div id="form">
+				<form>
+					<div class="row log-in-form">
+						<div id="close"><a>X</a></div>
+						<h4 class="text-center">LOGIN</h4>
+						<label>Username
+						<input type="text" placeholder="ssp151830">
+						</label>
+						<label>Password
+						<input type="password" placeholder="Password">
+						</label>
+						<p><a type="submit" class="button expanded">Log In</a></p>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div id="mask"></div>
+</div>
+
+<div id="boxes">
+	<div id="dialog2" class="window">
+		<div class="row">
+			<div id="form">
+				<form post>
+					<div class="row log-in-form">
+						<div id="close"><a>X</a></div>
+						<h4 class="text-center">CREATE ACCOUNT</h4>
+						<label>Username
+						<input type="text" placeholder="ssp151830">
+						</label>
+						<label>Email
+						<input type="text" placeholder="john.doe@gmail.com">
+						</label>
+						<label>Password
+						<input type="password" placeholder="Password">
+						</label>
+						<label>Verify Password
+						<input type="password" placeholder="Password">
+						</label>
+						<p><a type="submit" href="profile.html" class="button expanded">Create Account</a></p>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div id="mask"></div>
+</div>
+
+<script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+<script>
+      $(document).foundation();
+</script>
+<script type="text/javascript" src="https://intercom.zurb.com/scripts/zcom.js"></script>
+</body>
+</html>
