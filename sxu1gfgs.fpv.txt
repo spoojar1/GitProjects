@@ -1,0 +1,649 @@
+﻿latest update
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	deleted:    Big Data Technologies/Twitter Trending HashTags/README.txt
+#	deleted:    Big Data Technologies/Twitter Trending HashTags/TrendingHashTags.java
+#	deleted:    Big Data Technologies/Twitter Trending HashTags/TwitterDownload.java
+#	deleted:    CCI Solutions/BST2LL.java
+#	deleted:    CCI Solutions/BSTDoubleLL.java
+#	deleted:    CCI Solutions/CommonAncestorBST.java
+#	deleted:    CCI Solutions/FindSortedRotated.java
+#	deleted:    CCI Solutions/GenParan.java
+#	deleted:    CCI Solutions/GenPermute.java
+#	deleted:    CCI Solutions/GenSubset.java
+#	deleted:    CCI Solutions/IntegerToWords.java
+#	deleted:    CCI Solutions/LargestContiguousSum.java
+#	deleted:    CCI Solutions/NQueens.java
+#	deleted:    CCI Solutions/PrepareBST.java
+#	deleted:    CCI Solutions/README.txt
+#	deleted:    CCI Solutions/SortAnagrams.java
+#	deleted:    CCI Solutions/TowerOFHanoi.java
+#	deleted:    Database Design/DBProject.sql
+#	deleted:    Database Design/Database Requirements.docx
+#	deleted:    Database Design/ERDiagram.pdf
+#	deleted:    Database Design/Functional Dependencies.docx
+#	deleted:    Database Design/Insert Statements.txt
+#	deleted:    Database Design/PLSQL.txt
+#	deleted:    Database Design/Project Proposal.pptx
+#	deleted:    Database Design/Project Report.pdf
+#	deleted:    Database Design/README.txt
+#	deleted:    Database Design/Relational Schema.pdf
+#	deleted:    Database Design/Schema and Progress Documentation.xlsx
+#	deleted:    HackerRank Code/Bit Manipulation/Difficult/Counter game.java
+#	deleted:    HackerRank Code/Bit Manipulation/Difficult/Counter game.pdf
+#	deleted:    HackerRank Code/Bit Manipulation/Easy/Flipping bits.java
+#	deleted:    HackerRank Code/Bit Manipulation/Easy/Flipping bits.pdf
+#	deleted:    HackerRank Code/Bit Manipulation/Easy/Lonely Integer.java
+#	deleted:    HackerRank Code/Bit Manipulation/Easy/Lonely Integer.pdf
+#	deleted:    HackerRank Code/Bit Manipulation/Easy/Maximizing XOR.java
+#	deleted:    HackerRank Code/Bit Manipulation/Easy/Maximizing XOR.pdf
+#	deleted:    HackerRank Code/Bit Manipulation/Moderate/AND product.java
+#	deleted:    HackerRank Code/Bit Manipulation/Moderate/AND product.pdf
+#	deleted:    HackerRank Code/Bit Manipulation/Moderate/Cipher.java
+#	deleted:    HackerRank Code/Bit Manipulation/Moderate/Cipher.pdf
+#	deleted:    HackerRank Code/Bit Manipulation/Moderate/Sansa and XOR.java
+#	deleted:    HackerRank Code/Bit Manipulation/Moderate/Sansa and XOR.pdf
+#	deleted:    HackerRank Code/Dynamic Programming/Easy/The Maximum Subarray.java
+#	deleted:    HackerRank Code/Dynamic Programming/Easy/The Maximum Subarray.pdf
+#	deleted:    HackerRank Code/Dynamic Programming/Moderate/Fibonacci Modified.java
+#	deleted:    HackerRank Code/Dynamic Programming/Moderate/Fibonacci Modified.pdf
+#	deleted:    HackerRank Code/Dynamic Programming/Moderate/Stock Maximize.java
+#	deleted:    HackerRank Code/Dynamic Programming/Moderate/Stock Maximize.pdf
+#	deleted:    HackerRank Code/Dynamic Programming/Moderate/The Coin Change Problem.iss
+#	deleted:    HackerRank Code/Dynamic Programming/Moderate/The Coin Change Problem.pdf
+#	deleted:    HackerRank Code/Graph Theory/Moderate/Even Tree.java
+#	deleted:    HackerRank Code/Graph Theory/Moderate/Even Tree.pdf
+#	deleted:    HackerRank Code/Greedy/Easy/Jim and the Orders.java
+#	deleted:    HackerRank Code/Greedy/Easy/Jim and the Orders.pdf
+#	deleted:    HackerRank Code/Greedy/Easy/Largest Permutation.java
+#	deleted:    HackerRank Code/Greedy/Easy/Largest Permutation.pdf
+#	deleted:    HackerRank Code/Greedy/Easy/Mark and Toys.java
+#	deleted:    HackerRank Code/Greedy/Easy/Mark and Toys.pdf
+#	deleted:    HackerRank Code/Greedy/Easy/Priyanka and Toys.java
+#	deleted:    HackerRank Code/Greedy/Easy/Priyanka and Toys.pdf
+#	deleted:    HackerRank Code/Greedy/Easy/Two arrays.java
+#	deleted:    HackerRank Code/Greedy/Easy/Two arrays.pdf
+#	deleted:    HackerRank Code/Greedy/Moderate/Cutting Boards.java
+#	deleted:    HackerRank Code/Greedy/Moderate/Cutting Boards.pdf
+#	deleted:    HackerRank Code/Greedy/Moderate/Max Min.java
+#	deleted:    HackerRank Code/Greedy/Moderate/Max Min.pdf
+#	deleted:    HackerRank Code/Implementations/Difficult/[Algo] Matrix Rotation.java
+#	deleted:    HackerRank Code/Implementations/Difficult/[Algo] Matrix Rotation.pdf
+#	deleted:    HackerRank Code/Implementations/Easy/ACM ICPC Team.java
+#	deleted:    HackerRank Code/Implementations/Easy/ACM ICPC Team.pdf
+#	deleted:    HackerRank Code/Implementations/Easy/Angry Professor.java
+#	deleted:    HackerRank Code/Implementations/Easy/Angry Professor.pdf
+#	deleted:    HackerRank Code/Implementations/Easy/Caesar Cipher.java
+#	deleted:    HackerRank Code/Implementations/Easy/Caesar Cipher.pdf
+#	deleted:    HackerRank Code/Implementations/Easy/Cavity Map.java
+#	deleted:    HackerRank Code/Implementations/Easy/Cavity Map.pdf
+#	deleted:    HackerRank Code/Implementations/Easy/Chocolate Feast.java
+#	deleted:    HackerRank Code/Implementations/Easy/Chocolate Feast.pdf
+#	deleted:    HackerRank Code/Implementations/Easy/Cut the sticks.java
+#	deleted:    HackerRank Code/Implementations/Easy/Cut the sticks.pdf
+#	deleted:    HackerRank Code/Implementations/Easy/Find Digits.java
+#	deleted:    HackerRank Code/Implementations/Easy/Find Digits.pdf
+#	deleted:    HackerRank Code/Implementations/Easy/Library Fine.java
+#	deleted:    HackerRank Code/Implementations/Easy/Library Fine.pdf
+#	deleted:    HackerRank Code/Implementations/Easy/Manasa and Stones.java
+#	deleted:    HackerRank Code/Implementations/Easy/Manasa and Stones.pdf
+#	deleted:    HackerRank Code/Implementations/Easy/Modified Kaprekar Numbers.java
+#	deleted:    HackerRank Code/Implementations/Easy/Modified Kaprekar Numbers.pdf
+#	deleted:    HackerRank Code/Implementations/Easy/Service Lane.java
+#	deleted:    HackerRank Code/Implementations/Easy/Service Lane.pdf
+#	deleted:    HackerRank Code/Implementations/Easy/Sherlock and Squares.java
+#	deleted:    HackerRank Code/Implementations/Easy/Sherlock and Squares.pdf
+#	deleted:    HackerRank Code/Implementations/Easy/Taum and B'day.java
+#	deleted:    HackerRank Code/Implementations/Easy/Taum and B'day.pdf
+#	deleted:    HackerRank Code/Implementations/Easy/Utopian Tree.java
+#	deleted:    HackerRank Code/Implementations/Easy/Utopian Tree.pdf
+#	deleted:    HackerRank Code/Implementations/Moderate/Encryption.java
+#	deleted:    HackerRank Code/Implementations/Moderate/Encryption.pdf
+#	deleted:    HackerRank Code/Implementations/Moderate/Extra Long Factorials.java
+#	deleted:    HackerRank Code/Implementations/Moderate/Extra Long Factorials.pdf
+#	deleted:    HackerRank Code/Implementations/Moderate/The Grid Search.java
+#	deleted:    HackerRank Code/Implementations/Moderate/The Grid Search.pdf
+#	deleted:    HackerRank Code/Implementations/Moderate/The Time in Words.java
+#	deleted:    HackerRank Code/Implementations/Moderate/The Time in Words.pdf
+#	deleted:    HackerRank Code/Others/CoPrimeCalculator.java
+#	deleted:    HackerRank Code/Others/Romanizer.java
+#	deleted:    HackerRank Code/Search/Easy/Count Luck.java
+#	deleted:    HackerRank Code/Search/Easy/Count Luck.pdf
+#	deleted:    HackerRank Code/Search/Easy/Ice Cream Parlor.java
+#	deleted:    HackerRank Code/Search/Easy/Ice Cream Parlor.pdf
+#	deleted:    HackerRank Code/Search/Easy/Sherlock and Array.java
+#	deleted:    HackerRank Code/Search/Easy/Sherlock and Array.pdf
+#	deleted:    HackerRank Code/Search/Moderate/Connected Cell in a Grid.java
+#	deleted:    HackerRank Code/Search/Moderate/Connected Cell in a Grid.pdf
+#	deleted:    HackerRank Code/Search/Moderate/Missing Numbers.java
+#	deleted:    HackerRank Code/Search/Moderate/Missing Numbers.pdf
+#	deleted:    HackerRank Code/Search/Moderate/Pairs.java
+#	deleted:    HackerRank Code/Search/Moderate/Pairs.pdf
+#	deleted:    HackerRank Code/Sorting/Advanced/Insertion Sort Advanced Analysis.java
+#	deleted:    HackerRank Code/Sorting/Advanced/Insertion Sort Advanced Analysis.pdf
+#	deleted:    HackerRank Code/Sorting/Easy/Closest Numbers.java
+#	deleted:    HackerRank Code/Sorting/Easy/Closest Numbers.pdf
+#	deleted:    HackerRank Code/Sorting/Easy/Counting Sort 1.java
+#	deleted:    HackerRank Code/Sorting/Easy/Counting Sort 1.pdf
+#	deleted:    HackerRank Code/Sorting/Easy/Counting Sort 2.java
+#	deleted:    HackerRank Code/Sorting/Easy/Counting Sort 2.pdf
+#	deleted:    HackerRank Code/Sorting/Easy/Counting Sort 3.java
+#	deleted:    HackerRank Code/Sorting/Easy/Counting Sort 3.pdf
+#	deleted:    HackerRank Code/Sorting/Easy/Find the Median.java
+#	deleted:    HackerRank Code/Sorting/Easy/Find the Median.pdf
+#	deleted:    HackerRank Code/Sorting/Easy/Insertion Sort - Part 1.java
+#	deleted:    HackerRank Code/Sorting/Easy/Insertion Sort - Part 1.pdf
+#	deleted:    HackerRank Code/Sorting/Easy/Insertion Sort - Part 2.java
+#	deleted:    HackerRank Code/Sorting/Easy/Insertion Sort - Part 2.pdf
+#	deleted:    HackerRank Code/Sorting/Moderate/Almost Sorted.java
+#	deleted:    HackerRank Code/Sorting/Moderate/Almost Sorted.pdf
+#	deleted:    HackerRank Code/Sorting/Moderate/Bigger is Greater.java
+#	deleted:    HackerRank Code/Sorting/Moderate/Bigger is Greater.pdf
+#	deleted:    HackerRank Code/Sorting/Moderate/Flowers.java
+#	deleted:    HackerRank Code/Sorting/Moderate/Flowers.pdf
+#	deleted:    HackerRank Code/Sorting/Moderate/Quicksort In-Place.java
+#	deleted:    HackerRank Code/Sorting/Moderate/Quicksort In-Place.pdf
+#	deleted:    HackerRank Code/Sorting/Moderate/Sherlock and Pairs.java
+#	deleted:    HackerRank Code/Sorting/Moderate/Sherlock and Pairs.pdf
+#	deleted:    HackerRank Code/Sorting/Moderate/Sherlock and Watson.java
+#	deleted:    HackerRank Code/Sorting/Moderate/Sherlock and Watson.pdf
+#	deleted:    HackerRank Code/Sorting/Moderate/The Full Counting Sort.java
+#	deleted:    HackerRank Code/Sorting/Moderate/The Full Counting Sort.pdf
+#	deleted:    HackerRank Code/Strings/Difficult/Common Child.java
+#	deleted:    HackerRank Code/Strings/Difficult/Common Child.pdf
+#	deleted:    HackerRank Code/Strings/Difficult/Sherlock and Valid String.java
+#	deleted:    HackerRank Code/Strings/Difficult/Sherlock and Valid String.pdf
+#	deleted:    HackerRank Code/Strings/Easy/Alternating Characters.java
+#	deleted:    HackerRank Code/Strings/Easy/Alternating Characters.pdf
+#	deleted:    HackerRank Code/Strings/Easy/Anagram.java
+#	deleted:    HackerRank Code/Strings/Easy/Anagram.pdf
+#	deleted:    HackerRank Code/Strings/Easy/Funny String.java
+#	deleted:    HackerRank Code/Strings/Easy/Funny String.pdf
+#	deleted:    HackerRank Code/Strings/Easy/Game of Thrones - I.java
+#	deleted:    HackerRank Code/Strings/Easy/Game of Thrones - I.pdf
+#	deleted:    HackerRank Code/Strings/Easy/Java String Token.java
+#	deleted:    HackerRank Code/Strings/Easy/Java String Token.pdf
+#	deleted:    HackerRank Code/Strings/Easy/Make it Anagram.java
+#	deleted:    HackerRank Code/Strings/Easy/Make it Anagram.pdf
+#	deleted:    HackerRank Code/Strings/Easy/Palindrome Index.java
+#	deleted:    HackerRank Code/Strings/Easy/Palindrome Index.pdf
+#	deleted:    HackerRank Code/Strings/Easy/Pangrams.java
+#	deleted:    HackerRank Code/Strings/Easy/Pangrams.pdf
+#	deleted:    HackerRank Code/Strings/Easy/Pattern Syntax Checker.java
+#	deleted:    HackerRank Code/Strings/Easy/Pattern Syntax Checker.pdf
+#	deleted:    HackerRank Code/Strings/Moderate/Sherlock and Anagrams.java
+#	deleted:    HackerRank Code/Strings/Moderate/Sherlock and Anagrams.pdf
+#	deleted:    HackerRank Code/Strings/Moderate/Two Strings.java
+#	deleted:    HackerRank Code/Strings/Moderate/Two Strings.pdf
+#	deleted:    MultiCore Programming - Concurrency and Locks/LockMenu.java
+#	deleted:    MultiCore Programming - Concurrency and Locks/MultiCore Lock Implementations Report.pdf
+#	deleted:    MultiCore Programming - Concurrency and Locks/README.txt
+#	deleted:    UnderGrad/Algorithms/AllPair.java
+#	deleted:    UnderGrad/Algorithms/BFS.java
+#	deleted:    UnderGrad/Algorithms/BellManFord.java
+#	deleted:    UnderGrad/Algorithms/BoyerMoore.java
+#	deleted:    UnderGrad/Algorithms/DFS.java
+#	deleted:    UnderGrad/Algorithms/DijkshtrasAlgo.java
+#	deleted:    UnderGrad/Algorithms/GUIGraphColor.java
+#	deleted:    UnderGrad/Algorithms/Graph_Colouring.java
+#	deleted:    UnderGrad/Algorithms/InternetAlgo.java
+#	deleted:    UnderGrad/Algorithms/KMP.java
+#	deleted:    UnderGrad/Algorithms/Knapsack.java
+#	deleted:    UnderGrad/Algorithms/KnapsackDynamicEASY.java
+#	deleted:    UnderGrad/Algorithms/KruskalDemo1.java
+#	deleted:    UnderGrad/Algorithms/LCS.java
+#	deleted:    UnderGrad/Algorithms/Mergesort.java
+#	deleted:    UnderGrad/Algorithms/Nqueen.java
+#	deleted:    UnderGrad/Algorithms/OBSTDemo.java
+#	deleted:    UnderGrad/Algorithms/PrimsAlgo.java
+#	deleted:    UnderGrad/Algorithms/Quicksort.java
+#	deleted:    UnderGrad/Algorithms/RQuicksort.java
+#	deleted:    UnderGrad/Algorithms/RabinCarp.java
+#	deleted:    UnderGrad/Algorithms/RadixSort.java
+#	deleted:    UnderGrad/Algorithms/bubble.java
+#	deleted:    UnderGrad/Algorithms/insertion.java
+#	deleted:    UnderGrad/Algorithms/selection.java
+#	deleted:    UnderGrad/Computer Graphics/BEZIER.CPP
+#	deleted:    UnderGrad/Computer Graphics/BRESCIRC.CPP
+#	deleted:    UnderGrad/Computer Graphics/COHENSUT.CPP
+#	deleted:    UnderGrad/Computer Graphics/DDA.CPP
+#	deleted:    UnderGrad/Computer Graphics/FLOOD.CPP
+#	deleted:    UnderGrad/Computer Graphics/FLOOD1.CPP
+#	deleted:    UnderGrad/Computer Graphics/HERLINE.CPP
+#	deleted:    UnderGrad/Computer Graphics/LIANBARS.CPP
+#	deleted:    UnderGrad/Computer Graphics/MENUDRIV.CPP
+#	deleted:    UnderGrad/Computer Graphics/MIDPTCIR.CPP
+#	deleted:    UnderGrad/Computer Graphics/MIDPTELL.CPP
+#	deleted:    UnderGrad/Computer Graphics/ROLLINGB.CPP
+#	deleted:    UnderGrad/Computer Graphics/SUHO.Cpp
+#	deleted:    UnderGrad/Games/Images/Thumbs.db
+#	deleted:    UnderGrad/Games/Images/gameover.jpg
+#	deleted:    UnderGrad/Games/Images/gameoverinv.jpg
+#	deleted:    UnderGrad/Games/Images/openingNEW.jpg
+#	deleted:    UnderGrad/Games/Images/openingNEWINV.jpg
+#	deleted:    UnderGrad/Games/Images/shift 1.jpg
+#	deleted:    UnderGrad/Games/Images/shift 1INV.jpg
+#	deleted:    UnderGrad/Games/Images/shift 2.jpg
+#	deleted:    UnderGrad/Games/Images/shift 2INV.jpg
+#	deleted:    UnderGrad/Games/Images/shift 3.jpg
+#	deleted:    UnderGrad/Games/Images/shift 3INV.jpg
+#	deleted:    UnderGrad/Games/Images/shift 4.1.jpg
+#	deleted:    UnderGrad/Games/Images/shift 4.1inv.jpg
+#	deleted:    UnderGrad/Games/Images/shift 4.2.jpg
+#	deleted:    UnderGrad/Games/Images/shift 4.2inv.jpg
+#	deleted:    UnderGrad/Games/ShiftCg.java
+#	deleted:    UnderGrad/Matlab 3D Scanner/FINAL BE REPORT/3D scanner.ppt
+#	deleted:    UnderGrad/Matlab 3D Scanner/FINAL BE REPORT/Contents.doc
+#	deleted:    UnderGrad/Matlab 3D Scanner/FINAL BE REPORT/Contents.pdf
+#	deleted:    UnderGrad/Matlab 3D Scanner/FINAL BE REPORT/Summary.doc
+#	deleted:    UnderGrad/Matlab 3D Scanner/FINAL BE REPORT/Summary.pdf
+#	deleted:    UnderGrad/Matlab 3D Scanner/FINAL BE REPORT/Thumbs.db
+#	deleted:    UnderGrad/Matlab 3D Scanner/FINAL BE REPORT/main project report.docx
+#	deleted:    UnderGrad/Matlab 3D Scanner/FINAL BE REPORT/main project report.pdf
+#	deleted:    UnderGrad/Matlab 3D Scanner/FINAL BE REPORT/title page.docx
+#	deleted:    UnderGrad/Matlab 3D Scanner/FINAL BE REPORT/title page.pdf
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/Copy_of_workspace1.mat
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/Initial_Values.asv
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/Initial_Values.fig
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/Initial_Values.m
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/Scan3D.asv
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/Scan3D.fig
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/Scan3D.m
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/auipp.m
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/b.jpg
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/b4Rextract.jpg
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/b4thresholding.jpg
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/ball_pivot.asv
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/ball_pivot.m
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/check_intersect.asv
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/check_intersect.m
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/check_pts_in_sphere.asv
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/check_pts_in_sphere.m
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/dermicool.mat
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/dermicool.txt
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/dermicool/1.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/dermicool/10.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/dermicool/100_2176.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/dermicool/100_2245.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/dermicool/11.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/dermicool/12.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/dermicool/13.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/dermicool/14.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/dermicool/15.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/dermicool/16.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/dermicool/17.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/dermicool/18.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/dermicool/19.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/dermicool/2.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/dermicool/20.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/dermicool/21.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/dermicool/22.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/dermicool/23.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/dermicool/24.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/dermicool/25.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/dermicool/26.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/dermicool/27.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/dermicool/28.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/dermicool/29.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/dermicool/3.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/dermicool/30.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/dermicool/31.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/dermicool/32.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/dermicool/4.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/dermicool/5.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/dermicool/6.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/dermicool/7.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/dermicool/8.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/dermicool/9.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/find_seed_triangle.asv
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/find_seed_triangle.m
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/find_seed_triangle2.asv
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/find_seed_triangle2.m
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/help_ball_pivot.asv
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/help_ball_pivot.m
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/help_check_intersect.asv
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/help_check_intersect.m
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/help_seed_func.asv
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/help_seed_func.m
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/hs_err_pid3468.log
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/hs_err_pid3576.log
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/hs_err_pid476.log
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/hs_err_pid5316.log
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/ideal.mat
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/ideal.txt
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/ideal/1.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/ideal/10.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/ideal/11.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/ideal/12.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/ideal/13.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/ideal/14.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/ideal/15.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/ideal/16.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/ideal/17.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/ideal/18.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/ideal/19.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/ideal/2.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/ideal/20.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/ideal/21.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/ideal/22.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/ideal/23.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/ideal/24.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/ideal/25.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/ideal/26.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/ideal/27.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/ideal/28.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/ideal/29.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/ideal/3.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/ideal/30.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/ideal/4.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/ideal/5.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/ideal/6.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/ideal/7.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/ideal/8.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/ideal/9.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/ideal/Thumbs.db
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/img1.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/initial values.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/intersecttp.m
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/mesh.asv
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/mesh.m
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/meshlabfile.asv
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/meshlabfile.m
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/not_used.asv
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/not_used.m
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/np_voxel_selects.asv
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/np_voxel_selects.m
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/outofcore.asv
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/output.asv
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/output.txt
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/powder/1.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/powder/10.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/powder/11.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/powder/12.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/powder/13.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/powder/14.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/powder/15.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/powder/16.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/powder/17.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/powder/18.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/powder/19.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/powder/2.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/powder/20.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/powder/21.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/powder/22.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/powder/23.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/powder/24.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/powder/25.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/powder/26.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/powder/27.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/powder/28.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/powder/29.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/powder/3.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/powder/30.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/powder/31.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/powder/32.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/powder/4.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/powder/5.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/powder/6.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/powder/7.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/powder/8.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/powder/9.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/powder/Thumbs.db
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/powder/img10.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/powder/img100_2109.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/powder/img100_2174.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/powder/img12.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/powder/img14.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/powder/img16.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/powder/img18.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/powder/img2.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/powder/img20.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/powder/img22.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/powder/img24.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/powder/img26.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/powder/img28.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/powder/img30.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/powder/img32.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/powder/img34.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/powder/img36.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/powder/img38.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/powder/img4.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/powder/img40.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/powder/img42.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/powder/img44.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/powder/img46.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/powder/img48.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/powder/img50.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/powder/img52.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/powder/img54.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/powder/img56.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/powder/img58.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/powder/img6.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/powder/img60.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/powder/img62.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/powder/img64.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/powder/img8.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/pp.asv
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/pp.m
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/red.jpg
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/scan3D.JPG
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/second.asv
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/second.m
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/second2.asv
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/second2.m
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/second_2.asv
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/surf_render.m
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/test.asv
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/test.m
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/threshoding.jpg
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/vaseline.mat
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/vaseline.txt
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/vaseline/1.jpg
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/vaseline/10.jpg
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/vaseline/11.jpg
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/vaseline/12.jpg
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/vaseline/13.jpg
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/vaseline/14.jpg
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/vaseline/15.jpg
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/vaseline/16.jpg
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/vaseline/17.jpg
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/vaseline/18.jpg
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/vaseline/19.jpg
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/vaseline/2.jpg
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/vaseline/20.jpg
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/vaseline/21.jpg
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/vaseline/22.jpg
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/vaseline/23.jpg
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/vaseline/24.jpg
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/vaseline/25.jpg
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/vaseline/26.jpg
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/vaseline/27.jpg
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/vaseline/28.jpg
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/vaseline/29.jpg
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/vaseline/3.jpg
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/vaseline/30.jpg
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/vaseline/31.jpg
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/vaseline/32.jpg
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/vaseline/4.jpg
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/vaseline/5.jpg
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/vaseline/6.jpg
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/vaseline/7.jpg
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/vaseline/8.jpg
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/vaseline/9.jpg
+#	deleted:    UnderGrad/Matlab 3D Scanner/PROJECT CODE/workspace1.mat
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/background.css
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/books.js
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/clock/Thumbs.db
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/clock/clock.html
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/clock/dg0.gif
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/clock/dg1.gif
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/clock/dg2.gif
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/clock/dg3.gif
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/clock/dg4.gif
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/clock/dg5.gif
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/clock/dg6.gif
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/clock/dg7.gif
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/clock/dg8.gif
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/clock/dg9.gif
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/clock/dgam.gif
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/clock/dgc.gif
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/clock/dgh.gif
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/clock/dgpm.gif
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/cookies.js
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/cssfiles.css
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/data/hostwe.mdb
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/data/project.mdb
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/data/regaction.asp
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/default.shtml
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/editform.js
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/editpro.asp
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/editproaction.asp
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/events.js
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/flash_games/8ball.htm
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/flash_games/8ball.swf
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/flash_games/CheeseHunt.swf
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/flash_games/UltimateBaseball.swf
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/flash_games/baseball.htm
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/flash_games/blox.htm
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/flash_games/blox.swf
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/flash_games/cheesehunt.htm
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/flash_games/dinorush.htm
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/flash_games/dinorush.swf
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/flash_games/jump.htm
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/flash_games/jump.swf
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/flash_games/milkyshoot.htm
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/flash_games/milkyshoot.swf
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/flash_games/pacman.htm
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/flash_games/pacmanadv.swf
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/flash_games/puzzle.htm
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/flash_games/puzzle.swf
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/flash_games/snaket.htm
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/flash_games/snaket.swf
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/flash_games/twinsdeluxe.htm
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/flash_games/twinsdeluxe.swf
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/flash_images/8ball.htm
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/flash_images/8ball.swf
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/flash_images/8ballpool.jpg
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/flash_images/CheeseHunt.swf
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/flash_images/Thumbs.db
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/flash_images/UltimateBaseball.swf
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/flash_images/baseball.htm
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/flash_images/baseball.jpg
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/flash_images/blox.htm
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/flash_images/blox.jpg
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/flash_images/blox.swf
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/flash_images/cheesehunt.htm
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/flash_images/cheesehunt.jpg
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/flash_images/dinorush.htm
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/flash_images/dinorush.jpg
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/flash_images/dinorush.swf
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/flash_images/jump.htm
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/flash_images/jump.jpg
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/flash_images/jump.swf
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/flash_images/milkyshoot.htm
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/flash_images/milkyshoot.jpg
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/flash_images/milkyshoot.swf
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/flash_images/pacman.htm
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/flash_images/pacman.jpg
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/flash_images/pacmanadv.swf
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/flash_images/puzzle.htm
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/flash_images/puzzle.jpg
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/flash_images/puzzle.swf
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/flash_images/snaket.htm
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/flash_images/snaket.jpg
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/flash_images/snaket.swf
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/flash_images/twinsdeluxe.htm
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/flash_images/twinsdeluxe.jpg
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/flash_images/twinsdeluxe.swf
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/flicks.js
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/form.js
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/forum.asp
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/forum.css
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/game.htm
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/games.js
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/home.htm
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/hostwe.mdb
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/images/2.5mens.jpg
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/images/Thumbs.db
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/images/bgcolor1.jpg
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/images/bgcolor2.jpg
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/images/bgcolor3.jpg
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/images/book.jpg
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/images/canvas.png
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/images/castle.jpg
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/images/cressida.jpg
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/images/cricket.jpg
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/images/football.jpg
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/images/forumimg.jpg
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/images/forumpost.jpg
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/images/friends.jpg
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/images/heroes.jpg
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/images/index.jpg
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/images/ironman.jpg
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/images/isaac.jpg
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/images/leftarrow.png
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/images/loveactually.jpg
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/images/mario.jpg
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/images/moodi.jpg
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/images/movies.jpg
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/images/navigation.png
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/images/newstop.jpg
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/images/rightarrow.png
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/images/roboveda.jpg
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/images/ronclark.jpg
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/images/secuengg.jpg
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/images/tablehead.jpg
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/images/tabs.jpg
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/images/tux.jpg
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/images/weimg.jpg
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/jquery-1.4.2.min.js
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/jquery.curvycorners.packed.js
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/jquery.js
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/logaction.asp
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/loggedwindow.htm
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/movies.js
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/movies/Avatar.jpg
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/movies/DespicableMe3D.jpg
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/movies/Inception.jpg
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/movies/RSP.mdb
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/movies/Salt.jpg
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/movies/TheShawshankRedemption.jpg
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/movies/TheSorceror'sApprentice.jpg
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/movies/Thumbs.db
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/movies/ToyStory3.jpg
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/movies/Transformers.jpg
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/movies/WallStreet.jpg
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/news.htm
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/newthreadpost.asp
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/profile.htm
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/protabs.css
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/regaction.asp
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/register.htm
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/slidephoto.css
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/tabs.css
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/thread.asp
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/threadreply.asp
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/threadreply.css
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/threadreplypost.asp
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/threadreplytp.asp
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/threadtp.asp
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/tp.asp
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/userimg/Thumbs.db
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/userimg/rahul.jpg
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/userimg/satya.jpg
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/userimg/sumesh.jpg
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/userimg/suraj.jpg
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/userimg/user.jpg
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/userimg/vikram.jpg
+#	deleted:    UnderGrad/Online Discussion Zone - Web Technologies/viewpro.asp
+#
+# Untracked files:
+#	5lxgoccs.m2x.txt
+#	GitProjects/
+#	kzz15krg.dnv.txt
+#
+
