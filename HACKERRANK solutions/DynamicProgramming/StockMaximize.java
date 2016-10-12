@@ -2,19 +2,13 @@ import java.util.*;
 
 public class StockMaximize {
 	public static long calcProfit(int a[]) {
-		long prof = 0, max = 0, stock_count = 0;
-		int b[] = new int[a.length];
+		long prof = 0, max = 0;
 		for (int i = a.length - 1; i >= 0; i--) {
-			if (a[i] <= max)
-				b[i] = 1;
-			else
+			if (a[i] > max)
 				max = a[i];
 			prof += max - a[i];
 		}
-		/*
-		 * for(int i=0;i<b.length;i++){ if(b[i]==1){ stock_count++; prof-=a[i];
-		 * }else{ prof+=(stock_count*a[i]); stock_count=0; } }
-		 */
+		
 		return prof;
 	}
 
