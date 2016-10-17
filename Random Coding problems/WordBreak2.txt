@@ -1,0 +1,35 @@
+http://www.practice.geeksforgeeks.org/problem-page.php?pid=1278
+
+Given a string s and a dictionary of words dict, add spaces in s to construct a sentence where each word is a valid dictionary word.
+
+Return all such possible sentences.
+
+For example, given
+s = "snakesandladder",
+dict = ["snake", "snakes", "and", "sand", "ladder"].
+
+A solution is ["snakes and ladder",
+           "snake sand ladder"].
+
+Input:
+First line is integer T denoting number of test cases. 1<=T<=100.
+Every test case has 3 lines.
+First line is N number of words in dictionary. 1<=N<=20.
+Second line contains N strings denoting the words of dictionary. Length of each word is less than 15.
+Third line contains a string S of length less than 1000.
+
+Output:
+Print all possible strings in one line. Each string enclosed in ().See Example.
+If no string possible print "Empty" (without qoutes).
+
+Note:Make sure the strings are sorted in your result.
+
+Exapmle:
+Input:
+1
+5
+lr m lrm hcdar wk
+hcdarlrm
+
+Output:
+(hcdar lr m)(hcdar lrm)
