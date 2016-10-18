@@ -22,6 +22,7 @@ public class Palindrome_LCS{
 					lcs[1][j+1] = Math.max(lcs[1][j],lcs[0][j+1]);
 			}
 			
+			//re-using 2nd row as 1st for next iteration. This step allows us to bring space complexity from O(n^2) to O(n)
 			for(int j=0;j<=str.length();j++)
 				lcs[0][j] = lcs[1][j];
 		}
