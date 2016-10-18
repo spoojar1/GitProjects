@@ -1,3 +1,5 @@
+http://www.practice.geeksforgeeks.org/problem-page.php?pid=557
+
 Given a string, find the minimum number of characters to be inserted to convert it to palindrome.
 For Example:
 ab: Number of insertions required is 1. bab or aba
