@@ -18,7 +18,7 @@ public class CoinChange{
 		long ways = 0;
 		//System.out.println(n+" "+c[denom]+" "+c[denom-1]+" "+ways);
 		for (int i = 0; i * c[denom] <= n; i++) {
-			
+			.
 			ways += makeChange(n - i * c[denom], c, denom-1,store);
 		}
 		//System.out.println(n+" "+c[denom]+" "+c[denom-1]+" "+ways+" exit");
