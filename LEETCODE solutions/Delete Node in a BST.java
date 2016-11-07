@@ -28,7 +28,6 @@ public class Solution {
             return root;
         else{
             if(node.left==null && node.right==null){    //if node to be deleted is a leaf node
-            
                 //if root is the node to be deleted, then parent will be null
                 if(root.val==key)
                     return null;
@@ -83,8 +82,8 @@ public class Solution {
         return root;
     }
     
+	//Given a node, it returns the left most(smallest) node
     public TreeNode findNewNode(TreeNode node){
-        
         while(node.left!=null)
             node = node.left;
         return node;
